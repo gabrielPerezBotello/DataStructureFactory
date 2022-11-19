@@ -44,18 +44,18 @@ public class UpTreeDisjointSetForest<E> implements DisjointSetForest<E> {
      * @param <E> the generic element we will use for UpTreeNodes
      */
     private static class UpTreeNode<E> implements Position<E> {
-    	@Override
-		public String toString() {
-    		String parentString = null;
-    		
-    		if (this == parent) {
-    			parentString = "root";
-    		} else {
-    			parentString = parent.toString();
-    		}
-    		
-			return "UpTreeNode [element=" + element + ", parent=" + parentString + ", count=" + count + "]";
-		}
+//    	@Override
+//		public String toString() {
+//    		String parentString = null;
+//    		
+//    		if (this == parent) {
+//    			parentString = "root";
+//    		} else {
+//    			parentString = parent.toString();
+//    		}
+//    		
+//			return "UpTreeNode [element=" + element + ", parent=" + parentString + ", count=" + count + "]";
+//		}
 
 		/** Element field for our nodes. */
         private E element;

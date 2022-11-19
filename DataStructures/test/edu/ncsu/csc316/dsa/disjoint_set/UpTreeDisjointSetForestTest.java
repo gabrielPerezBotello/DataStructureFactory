@@ -29,6 +29,17 @@ public class UpTreeDisjointSetForestTest {
         set = new UpTreeDisjointSetForest<>();
     }
     
+//    /**
+//     * Test the output of the toString() method.
+//     */
+//    @Test
+//    public void testToString() {
+//    	set.makeSet("hello");
+//    	@SuppressWarnings("unchecked")
+//		UpTreeNode<String> e1 = (UpTreeNode<String>) set.find("hello");
+//    	assertEquals("", );
+//    }
+    
     /**
      * Test the output of the makeSet behavior
      */ 
